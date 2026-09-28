@@ -1,10 +1,10 @@
 # Web Development Project 2 - Who's That Pokémon?
 
-Submitted by: **Your Name Here**
+Submitted by: **Teresa Nguyen**
 
 This web app: **is a flashcard game where you read a clue, guess the Pokémon, and click the card to flip it and reveal the answer. The next button shows a random new card.**
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
@@ -29,9 +29,6 @@ The following **optional** features are implemented:
 - [ ] Cards contain images in addition to or in place of text
   - [ ] Some or all cards have images in place of or in addition to text
 - [x] Cards have different visual styles such as color based on their category
-  - Example categories you can use:
-    - Difficulty: Easy/medium/hard
-    - Subject: Biology/Chemistry/Physics/Earth science
 
 The following **additional** features are implemented:
 
@@ -43,17 +40,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/qAJb4VS.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with ...  
+GIF created with [Kap](https://getkap.co/) for macOS
 
-## Notes
-
-Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2026 Teresa Nguyen
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -65,4 +59,5 @@ Describe any challenges encountered while building the app.
     distributed under the License is distributed on an "AS IS" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
+    limitations under the License.
     limitations under the License.
