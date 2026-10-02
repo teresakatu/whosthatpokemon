@@ -47,7 +47,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-https://i.imgur.com/qAJb4VS.gif
+https://i.imgur.com/nYplNoS.gif
 
 GIF created with [Kap](https://getkap.co/) for macOS
 
