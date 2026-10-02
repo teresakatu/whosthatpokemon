@@ -184,6 +184,107 @@ body {
 }
 .next-button:focus-visible { outline: 4px dashed var(--paper); outline-offset: 10px; }
 
+.streak-bar {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 0 0 24px;
+}
+.streak-bar span {
+  padding: 6px 14px;
+  font-family: var(--display);
+  font-size: 0.8rem;
+  background: var(--ink);
+  color: var(--gold);
+  box-shadow: var(--notch-sm);
+}
+
+.guess-form {
+  margin: -16px 0 32px;
+  text-align: left;
+}
+.guess-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: var(--display);
+  font-size: 0.85rem;
+  color: var(--gold);
+}
+.guess-row { display: flex; gap: 10px; }
+.guess-row input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px;
+  font-family: var(--body);
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--paper);
+  border: none;
+  box-shadow: var(--notch-sm);
+}
+.guess-row input:focus-visible { outline: 4px dashed var(--gold); outline-offset: 4px; }
+.guess-submit {
+  padding: 0 18px;
+  border: none;
+  font-family: var(--display);
+  font-size: 0.85rem;
+  color: var(--ink);
+  background: var(--gold);
+  cursor: pointer;
+  box-shadow: var(--notch-sm);
+}
+.guess-submit:hover { background: #ffe1a8; }
+.guess-submit:active { transform: translate(3px, 3px); }
+
+.feedback {
+  margin: 12px 0 0;
+  padding: 8px 12px;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.feedback.correct { background: #38b764; color: var(--ink); }
+.feedback.incorrect { background: var(--red); color: var(--paper); }
+
+.nav-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+.nav-button {
+  padding: 12px 20px;
+  border: none;
+  font-family: var(--display);
+  font-size: 0.9rem;
+  color: var(--ink);
+  background: var(--gold);
+  cursor: pointer;
+  box-shadow: var(--notch-sm);
+}
+.nav-button:hover:not(:disabled) { background: #ffe1a8; }
+.nav-button:active:not(:disabled) { transform: translate(3px, 3px); }
+.nav-button:disabled {
+  background: #566c86;
+  color: #94b0c2;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+.position-indicator { font-family: var(--display); font-size: 0.85rem; color: var(--gold); }
+
+.shuffle-button {
+  padding: 10px 22px;
+  border: none;
+  font-family: var(--display);
+  font-size: 0.85rem;
+  color: var(--paper);
+  background: var(--red);
+  cursor: pointer;
+  box-shadow: var(--notch-sm);
+}
+.shuffle-button:hover { background: #d4617a; }
+.shuffle-button:active { transform: translate(3px, 3px); }
+
 @media (prefers-reduced-motion: reduce) {
   .card-inner { transition: none; }
 }
